@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profileprep</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper w-full h-full mx-auto overflow-auto bg-purple-300">
+        <!-- navbar -->
+        <div class="bg-purple-900 flex flex-col md:flex-row gap-4 md:gap-8 p-4">
+            <div class="flex items-center gap-4">
+                <!-- image -->
+                <img src="image.png" alt="" class="bg-yellow-400 rounded-full w-16 h-16">
+                <!-- heading -->
+                <h1 class="text-white text-3xl md:text-4xl font-serif font-bold">Profileprep</h1>
+            </div>
+            <!-- buttons -->
+            <div class="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-0 text-white text-lg md:text-2xl">
+                <a href="#home" class="hover:text-gray-300">Home</a>
+                <a href="#ourmission" class="hover:text-gray-300">Our Mission</a>
+                <a href="#ourteam" class="hover:text-gray-300">Our Team</a>
+                <a href="#form" class="hover:text-gray-300">Form</a>
+            </div>
+        </div>
+        <!-- home section -->
+        <div id="home" class="py-8"></div>
+       <!-- mission section -->
+<div id="ourmission" class="flex flex-col md:flex-row items-center md:items-start mt-8 mx-4 md:mx-10 bg-purple-900 p-4 rounded-lg">
+    <!-- img -->
+    <img src="misson.png" alt="" class="w-full md:w-1/2 h-auto object-cover rounded-lg">
+    <!-- text -->
+    <div class="flex flex-col mt-4 md:mt-0 md:ml-8 text-center md:text-left">
+        <h1 class="text-white text-3xl md:text-4xl font-mullish font-bold">Our Mission</h1>
+        <p class="text-white text-lg md:text-xl mt-4">
+            "Our mission is to empower students with comprehensive, profile-based learning that builds
+            confidence and equips them with all the essential skills needed to excel in their chosen careers,
+            bridging the gap between education and employment."
+        </p>
+    </div>
+</div>
+
+
+        <!-- our team section -->
+        <div id="ourteam" class="mt-8 border-2 border-purple-950 p-4">
+            <h1 class="text-center text-3xl md:text-4xl font-bold text-white">Our Team</h1>
+            <div class="flex flex-col md:flex-row gap-8 justify-center mt-6">
+                <div class="flex flex-col items-center">
+                    <img src="monil.png" alt="" class="rounded-full w-40 h-40">
+                    <h1 class="text-xl md:text-2xl mt-2">Monil Chandgadhiya</h1>
+                    <h2 class="text-lg md:text-xl">IIT Dhanbad</h2>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="monil.png" alt="" class="rounded-full w-40 h-40">
+                    <h1 class="text-xl md:text-2xl mt-2">Monil Chandgadhiya</h1>
+                    <h2 class="text-lg md:text-xl">IIT Dhanbad</h2>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="monil.png" alt="" class="rounded-full w-40 h-40">
+                    <h1 class="text-xl md:text-2xl mt-2">Monil Chandgadhiya</h1>
+                    <h2 class="text-lg md:text-xl">IIT Dhanbad</h2>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="monil.png" alt="" class="rounded-full w-40 h-40">
+                    <h1 class="text-xl md:text-2xl mt-2">Monil Chandgadhiya</h1>
+                    <h2 class="text-lg md:text-xl">IIT Dhanbad</h2>
+                </div>
+                <!-- Repeat the above block for other team members -->
+            </div>
+        </div>
+        <!-- unlock section  -->
+        <div id="form" class="mt-8 flex flex-col md:flex-row justify-between border-2 border-black mx-4 md:mx-auto p-4 max-w-screen-xl">
+            <div class="flex flex-col items-center md:items-start">
+                <h1 class="text-2xl md:text-4xl font-bold text-center md:text-left">"Unlock Your Dream Career"</h1>
+                <div class="mt-4">
+                    <img src="arrow.png" alt="" class="w-12 h-48 mx-auto md:mx-0">
+                </div>
+                <div class="mt-4">
+                    <a href="#form2">
+                        <button class="bg-purple-900 text-lg md:text-2xl text-white px-6 py-3 rounded-full font-bold">Enroll Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <img src="im1 copy.png" alt="" class="w-full md:w-1/2 mt-4 md:mt-0">
+        </div>
+
+        <!-- form section  -->
+        <div id="form2" class="mx-4 md:mx-24 bg-purple-200 p-4 rounded-lg">
+            <h1 class="text-2xl md:text-3xl font-bold bg-purple-900 text-white text-center py-2 rounded-lg">Registration Form</h1>
+            <form action="">
+                <div class="flex flex-col gap-4 mt-4">
+                    <div class="flex flex-col">
+                        <label for="firstname" class="font-semibold text-lg">First Name</label>
+                        <input type="text" id="firstname" placeholder="Enter Your FirstName" class="h-10 border rounded-md border-gray-300 p-2">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="lastname" class="font-semibold text-lg">Last Name</label>
+                        <input type="text" id="lastname" placeholder="Enter Your LastName" class="h-10 border rounded-md border-gray-300 p-2">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email" class="font-semibold text-lg">Enter Your Email (Personal)</label>
+                        <input type="email" id="email" placeholder="Enter Your Email Id" class="h-10 border rounded-md border-gray-300 p-2">
+                    </div>
+                    
+                    <h1 class="font-semibold text-lg">Which Profile Do You Want To Explore?</h1>
+                    <div class="flex items-center">
+                        <input type="radio" id="sde" name="profile" class="mr-2">
+                        <label for="sde" class="font-semibold text-lg">Software Developer/Engineer</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="product" name="profile" class="mr-2">
+                        <label for="product" class="font-semibold text-lg">Product Manager</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="data" name="profile" class="mr-2">
+                        <label for="data" class="font-semibold text-lg">Data Scientist/Analyst</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="cyber" name="profile" class="mr-2">
+                        <label for="cyber" class="font-semibold text-lg">Cybersecurity Analyst</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="ai" name="profile" class="mr-2">
+                        <label for="ai" class="font-semibold text-lg">AI Engineer</label>
+                    </div>
+                    <div class="flex items-center mt-4">
+                        <button class="px-6 py-3 bg-purple-900 text-white rounded-md font-bold">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- footer section -->
+        <footer class="bg-gray-900 text-white py-6 mt-8">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div class="flex flex-col mb-4 md:mb-0 w-full md:w-1/3">
+                    <h2 class="text-lg font-semibold mb-2">About Profileprep</h2>
+                    <p>"ProfilePrep offers a unique platform that provides comprehensive, profile-based learning paths. We empower students to explore career options, gain confidence through hands-on projects, and acquire all the skills needed to secure their dream jobs."</p>
+                </div>
+                <div class="flex flex-col mb-4 md:mb-0 w-full md:w-1/3">
+                    <h2 class="text-lg font-semibold mb-2">Quick Links</h2>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+                        <li><a href="Courses.html" class="hover:text-gray-400">Our Team</a></li>
+                        <li><a href="about.html" class="hover:text-gray-400">Our Mission</a></li>
+                        <li><a href="contact.html" class="hover:text-gray-400">Form</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col w-full md:w-1/3">
+                    <h2 class="text-lg font-semibold mb-2">Contact Us</h2>
+                    <p>Email: support@profileprep.com</p>
+                </div>
+            </div>
+            <div class="text-center text-gray-400 mt-4 border-t border-gray-700 pt-2">
+                &copy; 2024 Profileprep | All rights reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

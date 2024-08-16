@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-section p, .footer-section ul, .footer-section li {
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #bbbbbb;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+
+.footer-section.contact-form p {
+    margin: 5px 0;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer-section h2 {
+        font-size: 16px;
+    }
+    .footer-section p, .footer-section ul, .footer-section li {
+        font-size: 12px;
+    }
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
